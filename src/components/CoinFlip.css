@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+* {
+  font-family: "Zen Dots", sans-serif;
+  font-style: 'regular';
+  color: #FEFFFE;
+}
+
+
+.coin-flip-container {
+    position: relative;
+    z-index: 1; /* Ensure it is above the background */
+    padding: 20px;
+    background-color: rgba(71, 44, 99, 0.9); /* Slightly transparent background */
+    border-radius: 8px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    /* background-color: #007bb8; */
+  }
+  
+  .coin-flip-container h1 {
+    font-size: 24px;
+  }
+  
+  .coin-flip-container p {
+    font-size: 18px;
+  }
+
+  .coin-flip-container p span{
+    color: #219678;
+  }
+
+  .coin-flip-container p b{
+    font-size: 10px;
+  }
+  
+  .input-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .input-button input{
+    border-radius: 12px;
+    padding: 24px;
+    margin: 12px;
+    width: 88%;
+    color: #9F98AD;
+    background-color: #D9D9D9;
+  }
+
+  .input-button button{
+    border-radius: 12px;
+    padding: 16px;
+    margin: 8px;
+    width: 100%;
+    background-color: #E6B02A;
+    color: #492E5C;
+    font-weight: bold;
+  }
+
+  .input-button img{
+    height: 128px;
+    width: 128px;
+  }
+
+  .coin-flip-container .message{
+    color: #219678;
+  }
+
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+
+  .no-spinners {
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+  }
